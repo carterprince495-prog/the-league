@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Reaper Lounge Year 1 league hub.">
+  <title>The Reaper Lounge | League Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a class="brand" href="index.html">
+        THE REAPER LOUNGE
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="league.html" aria-current="page">League</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="container league-main">
+
+    <section class="page-heading">
+
+      <p class="eyebrow">
+        YEAR 1 • LEAGUE HUB
+      </p>
+
+      <h1>
+        THE REAPER <span>BOARD</span>
+      </h1>
+
+      <p>
+        Track the season, check the marquee matchup,
+        and see who is earning their place in the Lounge.
+      </p>
+
+    </section>
+
+    <section class="board-grid">
+
+      <article class="card">
+
+        <div class="card-label">
+          CURRENT STANDINGS
+        </div>
+
+        <div class="table-wrap">
+
+          <table>
+
+            <caption class="sr-only">
+              Year 1 Madden League standings
+            </caption>
+
+            <thead>
+              <tr>
+                <th scope="col">Team</th>
+                <th scope="col">W</th>
+                <th scope="col">L</th>
+                <th scope="col">PF</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <th scope="row">Reapers</th>
+                <td>3</td>
+                <td>0</td>
+                <td>91</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Outlaws</th>
+                <td>3</td>
+                <td>0</td>
+                <td>84</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Vipers</th>
+                <td>2</td>
+                <td>1</td>
+                <td>72</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Knights</th>
+                <td>1</td>
+                <td>2</td>
+                <td>61</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Titans</th>
+                <td>0</td>
+                <td>3</td>
+                <td>48</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </article>
+
+      <article class="card">
+
+        <div class="card-label">
+          WEEK 4 SCHEDULE
+        </div>
+
+        <ul class="schedule">
+
+          <li>
+            <span>Reapers</span>
+            <b>VS</b>
+            <span>Outlaws</span>
+          </li>
+
+          <li>
+            <span>Vipers</span>
+            <b>VS</b>
+            <span>Knights</span>
+          </li>
+
+          <li>
+            <span>Titans</span>
+            <b>BYE</b>
+            <span>—</span>
+          </li>
+
+        </ul>
+
+        <button
+          class="button button-small"
+          id="revealButton"
+          type="button"
+          aria-expanded="false"
+          aria-controls="leagueMessage"
+        >
+          REVEAL THE REAPER
+        </button>
+
+        <p
+          id="leagueMessage"
+          class="interactive-message"
+          hidden
+        >
+          The Reaper is watching. Lock in your game plan
+          and protect the ball.
+        </p>
+
+      </article>
+
+    </section>
+
+    <section class="card weekly">
+
+      <div class="weekly-head">
+
+        <div>
+
+          <div class="card-label">
+            YEAR 1 FEATURE
+          </div>
+
+          <h2>
+            GAME OF THE WEEK
+          </h2>
+
+        </div>
+
+        <span class="badge">
+          WEEK 4
+        </span>
+
+      </div>
+
+      <div class="big-matchup">
+
+        <div>
+          <strong>REAPERS</strong>
+          <small>3-0</small>
+        </div>
+
+        <span>VS</span>
+
+        <div>
+          <strong>OUTLAWS</strong>
+          <small>3-0</small>
+        </div>
+
+      </div>
+
+      <p class="center-copy">
+        The league's only undefeated teams meet under the lights.
+        The winner owns the top spot going into Week 5.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-wrap">
+
+      <span>
+        THE REAPER LOUNGE • YEAR 1
+      </span>
+
+      <a href="index.html">
+        Back to Home
+      </a>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
