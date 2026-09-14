@@ -1,7 +1,582 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="THE REAPER LOUNGE Year 1 Madden League standings and schedule."
+    >
+
+    <title>League | THE REAPER LOUNGE</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo" aria-label="The Reaper Lounge home">
+            THE REAPER LOUNGE
+            <span>YEAR 1</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="league.html" class="active">League</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+<section class="page-hero">
+    <div class="container">
+
+        <p class="eyebrow">YEAR 1 • MADDEN LEAGUE</p>
+
+        <h1>THE LEAGUE</h1>
+
+        <p>
+            32 NFL franchises competing for the Reaper Lounge championship.
+        </p>
+
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">CURRENT RECORDS</p>
+            <h2>STANDINGS</h2>
+        </div>
+
+
+        <div class="conference-buttons" aria-label="Standings filters">
+
+            <button
+                class="filter-button active"
+                type="button"
+                data-conference="all"
+            >
+                ALL 32
+            </button>
+
+            <button
+                class="filter-button"
+                type="button"
+                data-conference="AFC"
+            >
+                AFC
+            </button>
+
+            <button
+                class="filter-button"
+                type="button"
+                data-conference="NFC"
+            >
+                NFC
+            </button>
+
+        </div>
+
+
+        <div class="table-wrapper">
+
+            <table id="standingsTable">
+
+                <caption>
+                    THE REAPER LOUNGE Year 1 fictional Madden standings
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Conference</th>
+                        <th scope="col">W</th>
+                        <th scope="col">L</th>
+                        <th scope="col">PF</th>
+                        <th scope="col">PA</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr data-conference="AFC">
+                        <td>1</td>
+                        <th scope="row">Kansas City Chiefs</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>2</td>
+                        <th scope="row">Baltimore Ravens</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>3</td>
+                        <th scope="row">Buffalo Bills</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>4</td>
+                        <th scope="row">Cincinnati Bengals</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>5</td>
+                        <th scope="row">Houston Texans</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>6</td>
+                        <th scope="row">Los Angeles Chargers</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>7</td>
+                        <th scope="row">Pittsburgh Steelers</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>8</td>
+                        <th scope="row">Denver Broncos</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>9</td>
+                        <th scope="row">Miami Dolphins</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>10</td>
+                        <th scope="row">Cleveland Browns</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>11</td>
+                        <th scope="row">Jacksonville Jaguars</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>12</td>
+                        <th scope="row">Indianapolis Colts</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>13</td>
+                        <th scope="row">Las Vegas Raiders</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>14</td>
+                        <th scope="row">New England Patriots</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>15</td>
+                        <th scope="row">New York Jets</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="AFC">
+                        <td>16</td>
+                        <th scope="row">Tennessee Titans</th>
+                        <td>AFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+
+                    <tr data-conference="NFC">
+                        <td>1</td>
+                        <th scope="row">Philadelphia Eagles</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>2</td>
+                        <th scope="row">Detroit Lions</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>3</td>
+                        <th scope="row">San Francisco 49ers</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>4</td>
+                        <th scope="row">Dallas Cowboys</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>5</td>
+                        <th scope="row">Green Bay Packers</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>6</td>
+                        <th scope="row">Minnesota Vikings</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>7</td>
+                        <th scope="row">Tampa Bay Buccaneers</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>8</td>
+                        <th scope="row">Los Angeles Rams</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>9</td>
+                        <th scope="row">Seattle Seahawks</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>10</td>
+                        <th scope="row">Chicago Bears</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>11</td>
+                        <th scope="row">Atlanta Falcons</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>12</td>
+                        <th scope="row">New Orleans Saints</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>13</td>
+                        <th scope="row">Arizona Cardinals</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>14</td>
+                        <th scope="row">Carolina Panthers</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>15</td>
+                        <th scope="row">New York Giants</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr data-conference="NFC">
+                        <td>16</td>
+                        <th scope="row">Washington Commanders</th>
+                        <td>NFC</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section dark-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">MADDEN MATCHUPS</p>
+            <h2>SCHEDULE</h2>
+        </div>
+
+
+        <div class="schedule-controls">
+
+            <label for="weekSelect">
+                Select Week
+            </label>
+
+            <select id="weekSelect">
+                <option value="1">Week 1</option>
+                <option value="2">Week 2</option>
+                <option value="3">Week 3</option>
+                <option value="4">Week 4</option>
+                <option value="5">Week 5</option>
+                <option value="6">Week 6</option>
+                <option value="7">Week 7</option>
+                <option value="8">Week 8</option>
+                <option value="9">Week 9</option>
+                <option value="10">Week 10</option>
+                <option value="11">Week 11</option>
+                <option value="12">Week 12</option>
+                <option value="13">Week 13</option>
+                <option value="14">Week 14</option>
+                <option value="15">Week 15</option>
+                <option value="16">Week 16</option>
+                <option value="17">Week 17</option>
+                <option value="18">Week 18</option>
+            </select>
+
+        </div>
+
+
+        <div id="scheduleContainer" class="schedule-grid">
+
+            <!-- JavaScript fills this area -->
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">LEAGUE SPOTLIGHT</p>
+            <h2>PLAYER OF THE WEEK</h2>
+        </div>
+
+        <div class="player-card">
+
+            <div class="player-number">
+                1
+            </div>
+
+            <div>
+                <p class="eyebrow">TBD</p>
+
+                <h3>
+                    PLAYER OF THE WEEK
+                </h3>
+
+                <p>
+                    Player of the Week will be announced after
+                    the first completed Madden matchup.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section dark-section">
+    <div class="container reveal-box">
+
+        <p class="eyebrow">SECRET FILE</p>
+
+        <h2>THE REAPER</h2>
+
+        <button
+            id="revealButton"
+            class="btn btn-primary"
+            type="button"
+            aria-expanded="false"
+            aria-controls="leagueMessage"
+        >
+            REVEAL THE REAPER
+        </button>
+
+        <p
+            id="leagueMessage"
+            class="reveal-message"
+            hidden
+        >
+            The Reaper is watching every matchup.
+            Win your games. Protect your record.
+            There is nowhere to hide.
+        </p>
+
+    </div>
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+    <div class="container">
+
+        <p>
+            THE REAPER LOUNGE
+            <span>•</span>
+            YEAR 1
+        </p>
+
+        <p class="footer-small">
+            Unofficial fictional Madden league. Not affiliated with the NFL.
+        </p>
+
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>t="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="The Reaper Lounge Year 1 league hub.">
   <title>The Reaper Lounge | League Hub</title>
